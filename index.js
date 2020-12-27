@@ -38,7 +38,6 @@ http.createServer((request, response) => {
             response.write("\nYou lost!");
             response.end();
         }
-        response.end();
     }
     else {
         response.write("unauthorized");
